@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Definindo o conjunto de caracteres para suportar acentos e caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Garantindo que o layout seja responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de João Victor</title>
+    <!-- Importando o arquivo CSS para estilizar a página -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- Cabeçalho da página com navegação principal -->
+    <header>
+        <nav>
+            <ul>
+                <!-- Links para navegar pelas seções da página -->
+                <li><a href="#sobre-mim">SOBRE MIM</a></li>
+                <li><a href="#formacao">FORMAÇÃO</a></li>
+                <li><a href="#portfolio">PORTFÓLIO</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção sobre mim -->
+    <section id="sobre-mim">
+        <h2>Sobre mim</h2>
+        <h1>OI, SOU O JOÃO VICTOR <span>👋</span></h1>
+        <p>Eu sou um desenvolvedor Backend com 3 anos de experiência em projetos freelance e estou sempre procurando
+            novas oportunidades para aplicar meus conhecimentos e habilidades em projetos desafiadores. Meu conhecimento
+            técnico inclui habilidades em PHP, JavaScript, MySQL e jQuery, e sou especialista em desenvolvimento de
+            soluções personalizadas para atender às necessidades de cada cliente. Além disso, tenho experiência em
+            gerenciamento de bancos de dados e otimização de consultas para garantir a performance e escalabilidade das
+            aplicações. Adicionalmente, sou inovador, forte a tomar decisões e tenho excelentes capacidades de
+            comunicação.</p>
+    </section>
+
+    <!-- Seção de formação acadêmica -->
+    <section id="formacao">
+        <h2>FORMAÇÃO</h2>
+        <p><strong class="instituicao">Ciências da Computação</strong><br>
+            2020 a 2024<br>
+            IFCE Campus Maracanaú</p>
+
+        <p><strong class="instituicao">Técnico em Informática em Programação FullStack</strong><br>
+            2017 a 2019<br>
+            EEEP José Ivanilton Nocrato – Guaiúba, CE</p>
+    </section>
+
+    <!-- Seção de portfólio -->
+    <section id="portfolio">
+        <h2>PORTFÓLIO</h2>
+        <div class="projetos">
+            <!-- Projetos que já foram realizados -->
+            <div class="projeto">
+                <p>SITE PARA LOJA DE E MANUTENÇÃO DE IPHONES (IPHONECLUB)</p>
+                <a href="https://www.iphoneclub.com.br" target="_blank">VER PROJETO</a>
+            </div>
+            <div class="projeto">
+                <p>SITE PARA O ESTUDIO ORON, DESIGN DE INTERIORES</p>
+                <a href="https://studiooron.com.br/" target="_blank">VER PROJETO</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de contato -->
+    <section id="contato">
+        <h2>CONTATO</h2>
+        <form>
+            <!-- Campo para o nome do usuário -->
+            <div class="input-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <!-- Campo para o email do usuário -->
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <!-- Campo para a mensagem do usuário -->
+            <div class="input-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <!-- Botão para enviar o formulário -->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
